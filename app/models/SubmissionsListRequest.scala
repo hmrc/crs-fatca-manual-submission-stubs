@@ -14,18 +14,16 @@
  * limitations under the License.
  */
 
-package module
+package models
 
-import play.api.inject.{Binding, Module as AppModule}
-import play.api.{Configuration, Environment}
+import play.api.libs.json.{Json, OFormat}
 
-import java.time.Clock
 
-class Module extends AppModule:
+case class SubmissionsListRequest(
+                                    requestCommon: ReadSubmissionRequestCommon,
+                                    requestDetails: ReadSubmissionRequestDetails
+                                  )
 
-  override def bindings(
-    environment: Environment,
-    configuration: Configuration
-  ): Seq[Binding[_]] =
-    bind[Clock].toInstance(Clock.systemDefaultZone) :: // inject if current time needs to be controlled in unit tests
-      Nil
+object SubmissionsListRequest {
+  implicit val format : OFormat[SubmissionsListRequest] = Json.format[SubmissionsListRequest]
+}

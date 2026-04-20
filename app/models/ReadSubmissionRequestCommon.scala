@@ -14,18 +14,17 @@
  * limitations under the License.
  */
 
-package module
+package models
 
-import play.api.inject.{Binding, Module as AppModule}
-import play.api.{Configuration, Environment}
+import models.SubmissionsConstants.{CRFA, RegimeType}
+import play.api.libs.json.{Json, OFormat}
 
-import java.time.Clock
-
-class Module extends AppModule:
-
-  override def bindings(
-    environment: Environment,
-    configuration: Configuration
-  ): Seq[Binding[_]] =
-    bind[Clock].toInstance(Clock.systemDefaultZone) :: // inject if current time needs to be controlled in unit tests
-      Nil
+case class ReadSubmissionRequestCommon(
+                           regime: RegimeType= CRFA,
+                           originatingSystem: String = "MDTP",
+                           transmittingSystem: String = "CADX",
+                           requestParameters: Option[List[CommonParameters]] = None
+                         )
+object ReadSubmissionRequestCommon {
+  implicit val format: OFormat[ReadSubmissionRequestCommon] = Json.format[ReadSubmissionRequestCommon]
+}

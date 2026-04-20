@@ -1,0 +1,44 @@
+{
+  "submissionsListResponse": {
+    "responseCommon": {
+      "regime": "CRFA",
+      "responseParameters": [
+        {
+          "paramName": "paramName1",
+          "paramValue": "paramValue1"
+        }
+      ]
+    },
+    "responseDetails": {
+      "submissionsList": [
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0256",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-02-28T10:20:56.789Z",
+          "regime": "CRS",
+          "reportingYear": "2016",
+          "submissionCaseId": "CRS-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "CRS702",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0256"
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name1",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0266",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-02-28T10:20:56.789Z",
+          "regime": "FATCA",
+          "reportingYear": "2016",
+          "submissionCaseId": "FATCA-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "FATCA2",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0266",
+          "submissionDeleteStatus": true
+        }
+      ]
+    }
+  }
+}

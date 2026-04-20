@@ -14,18 +14,10 @@
  * limitations under the License.
  */
 
-package module
+package constants
 
-import play.api.inject.{Binding, Module as AppModule}
-import play.api.{Configuration, Environment}
+object FiConstants {
 
-import java.time.Clock
+  val fiList: List[String] = List("683373339", "683373300", "683373301", "683373303", "683373304")
 
-class Module extends AppModule:
-
-  override def bindings(
-    environment: Environment,
-    configuration: Configuration
-  ): Seq[Binding[_]] =
-    bind[Clock].toInstance(Clock.systemDefaultZone) :: // inject if current time needs to be controlled in unit tests
-      Nil
+}
