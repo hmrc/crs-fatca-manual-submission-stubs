@@ -20,11 +20,12 @@ import models.SubmissionsConstants.{CRFA, RegimeType}
 import play.api.libs.json.{Json, OFormat}
 
 case class ReadSubmissionRequestCommon(
-                           regime: RegimeType= CRFA,
-                           originatingSystem: String = "MDTP",
-                           transmittingSystem: String = "CADX",
-                           requestParameters: Option[List[CommonParameters]] = None
-                         )
+  regime: RegimeType = CRFA,
+  originatingSystem: String = "MDTP",
+  transmittingSystem: String = "CADX",
+  requestParameters: Option[List[CommonParameters]] = None
+)
+
 object ReadSubmissionRequestCommon {
   implicit val format: OFormat[ReadSubmissionRequestCommon] = Json.format[ReadSubmissionRequestCommon]
 }

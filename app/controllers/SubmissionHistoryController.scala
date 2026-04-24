@@ -27,16 +27,20 @@ import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class SubmissionHistoryController @Inject()(cc: ControllerComponents)(implicit ec: ExecutionContext) extends BackendController(cc) with Logging{
+class SubmissionHistoryController @Inject() (cc: ControllerComponents)(implicit ec: ExecutionContext) extends BackendController(cc) with Logging {
   val resourcePath = "/resources/ReadSubmissionSuccess.json"
 
-  def readSubmission(): Action[ReadSubmissionRequest] = Action.async(parse.json[ReadSubmissionRequest]) { implicit req =>
-    req.body.submissionsListRequest.requestDetails.fiId.map { financialInstitutionId =>
-      if (fiList.contains(financialInstitutionId)) {
-        Future.successful(Ok(Json.parse(resourceAsString(resourcePath).replace("[fiId]", financialInstitutionId))))
-      } else {
-        Future.successful(InternalServerError)
-      }
-    }.getOrElse(Future.successful(InternalServerError))
+  def readSubmission(): Action[ReadSubmissionRequest] = Action.async(parse.json[ReadSubmissionRequest]) {
+    implicit req =>
+      req.body.submissionsListRequest.requestDetails.fiId
+        .map {
+          financialInstitutionId =>
+            if (fiList.contains(financialInstitutionId)) {
+              Future.successful(Ok(Json.parse(resourceAsString(resourcePath).replace("[fiId]", financialInstitutionId))))
+            } else {
+              Future.successful(InternalServerError)
+            }
+        }
+        .getOrElse(Future.successful(InternalServerError))
   }
 }
