@@ -1,2 +1,3 @@
 # microservice specific routes
 
+POST        /dac6/getlistofsubmissions/v1        controllers.SubmissionHistoryController.readSubmission()

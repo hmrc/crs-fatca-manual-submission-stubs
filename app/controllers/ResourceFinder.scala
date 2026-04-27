@@ -14,18 +14,20 @@
  * limitations under the License.
  */
 
-package module
+package controllers
 
-import play.api.inject.{Binding, Module as AppModule}
-import play.api.{Configuration, Environment}
+import java.time.{ZoneId, ZonedDateTime}
+import java.time.format.DateTimeFormatter
+import java.util.UUID
+import scala.io.Source
 
-import java.time.Clock
+object ResourceFinder {
 
-class Module extends AppModule:
-
-  override def bindings(
-    environment: Environment,
-    configuration: Configuration
-  ): Seq[Binding[_]] =
-    bind[Clock].toInstance(Clock.systemDefaultZone) :: // inject if current time needs to be controlled in unit tests
-      Nil
+  def resourceAsString(resourcePath: String): String = {
+    val option = Option(getClass.getResourceAsStream(resourcePath)) map {
+      is =>
+        Source.fromInputStream(is).getLines().mkString("\n")
+    }
+    option.get
+  }
+}
