@@ -24,7 +24,7 @@ import javax.inject.{Inject, Singleton}
 import scala.concurrent.Future
 
 @Singleton()
-class FatcaVoidSubmissionController @Inject()(cc: ControllerComponents) extends BackendController(cc) {
+class FatcaVoidSubmissionController @Inject() (cc: ControllerComponents) extends BackendController(cc) {
 
   def submit(): Action[JsValue] = Action(parse.json).async {
     implicit request =>
