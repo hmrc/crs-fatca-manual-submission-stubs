@@ -1,3 +1,5 @@
 # microservice specific routes
 
 POST        /dac6/getlistofsubmissions/v1        controllers.SubmissionHistoryController.readSubmission()
+
+POST        /dac6/submitVoidRequest/v1        controllers.FatcaVoidSubmissionController.submit()
