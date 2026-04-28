@@ -28,7 +28,7 @@ class FatcaVoidSubmissionController @Inject() (cc: ControllerComponents) extends
 
   def submit(): Action[JsValue] = Action(parse.json).async {
     implicit request =>
-      Future.successful(Ok)
+      Future.successful(NoContent)
   }
 
 }
