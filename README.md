@@ -19,7 +19,7 @@ Link: http://localhost:10041
 | Endpoint                      | Supported methods | Description                                         |
 |-------------------------------|-------------------|-----------------------------------------------------|
 | /dac6/getlistofsubmissions/v1 | POST              | Returns list of submission history and require FIID |
-| /dac6/submitVoidRequest/v1    | POST              | Returns Created response code                       |
+| /dac6/submitVoidRequest/v1    | POST              | Returns NoContent response code                     |
 
 ### License
 
