@@ -40,6 +40,19 @@
         {
           "fiId": "[fiId]",
           "fiName": "Test FI Name",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0200",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2024-02-28T10:20:56.789Z",
+          "regime": "CRS",
+          "reportingYear": "2016",
+          "submissionCaseId": "CRS-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "CRS701",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0200"
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name",
           "fileName": "GB2025GB-XZU9323406858-APIMB0255",
           "originalMessageRefId": "GB2025GB-XZU9323406858-APIMB0256",
           "submissionStatus": "PASSED",
@@ -67,9 +80,35 @@
         },
         {
           "fiId": "[fiId]",
+          "fiName": "Test FI Name",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0280",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-03-28T10:20:56.789Z",
+          "regime": "CRS",
+          "reportingYear": "2016",
+          "submissionCaseId": "CRS-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "CRS701",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0280"
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0281",
+          "originalMessageRefId": "GB2025GB-XZU9323406858-APIMB0280",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-03-29T10:20:56.789Z",
+          "regime": "CRS",
+          "reportingYear": "2016",
+          "submissionCaseId": "CRS-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "CRS703",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0281"
+        },
+        {
+          "fiId": "[fiId]",
           "fiName": "Test FI Name1",
-          "fileName": "GB2025GB-XZU9323406858-APIMB0266",
-          "originalMessageRefId": "GB2025GB-XZU9323406858-APIMB0267",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0275",
           "submissionStatus": "PASSED",
           "uploadDateTime": "2025-02-28T10:20:56.789Z",
           "regime": "FATCA",
@@ -77,13 +116,14 @@
           "submissionCaseId": "FATCA-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "FATCA1",
-          "messageRefId": "GB2025GB-XZU9323406858-APIMB0266",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0275",
           "submissionDeleteStatus": true
         },
         {
           "fiId": "[fiId]",
           "fiName": "Test FI Name1",
           "fileName": "GB2025GB-XZU9323406858-APIMB0267",
+          "originalMessageRefId": "GB2025GB-XZU9323406858-APIMB0275",
           "submissionStatus": "PASSED",
           "uploadDateTime": "2025-03-28T14:20:56.789Z",
           "regime": "FATCA",
@@ -122,10 +162,23 @@
           "submissionFileType": "FATCA2",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0269",
           "submissionDeleteStatus": false
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name1",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0270",
+          "originalMessageRefId": "GB2025GB-XZU9323406858-APIMB0268",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-03-29T14:20:56.789Z",
+          "regime": "FATCA",
+          "reportingYear": "2016",
+          "submissionCaseId": "FATCA-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "FATCA4",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0270",
+          "submissionDeleteStatus": false
         }
       ]
     }
   }
 }
-
-
