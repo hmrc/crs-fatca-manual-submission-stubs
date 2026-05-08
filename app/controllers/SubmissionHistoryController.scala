@@ -25,9 +25,9 @@ import play.api.libs.json.Json
 import play.api.mvc.{Action, ControllerComponents}
 import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.Future
 
-class SubmissionHistoryController @Inject() (cc: ControllerComponents)(implicit ec: ExecutionContext) extends BackendController(cc) with Logging {
+class SubmissionHistoryController @Inject() (cc: ControllerComponents) extends BackendController(cc) with Logging {
   val resourcePath = "/resources/ReadSubmissionSuccess.json"
 
   def readSubmission(): Action[ReadSubmissionRequest] = Action.async(parse.json[ReadSubmissionRequest]) {
