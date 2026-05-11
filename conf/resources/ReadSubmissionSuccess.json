@@ -194,6 +194,19 @@
         {
           "fiId": "[fiId]",
           "fiName": "Test FI Name",
+          "fileName": "GB2013GB-XZU9323406858-APIMB0101",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2013-03-15T10:20:56.789Z",
+          "regime": "CRS",
+          "reportingYear": "2013",
+          "submissionCaseId": "CRS-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "CRS701",
+          "messageRefId": "GB2013GB-XZU9323406858-APIMB0101"
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name",
           "fileName": "GB2015GB-XZU9323406858-APIMB0102",
           "submissionStatus": "PASSED",
           "uploadDateTime": "2015-03-15T10:20:56.789Z",
