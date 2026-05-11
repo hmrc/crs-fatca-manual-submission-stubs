@@ -177,7 +177,6 @@
           "submissionFileType": "FATCA1",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0666",
           "submissionDeleteStatus": false
-<<<<<<< HEAD
         },
         {
           "fiId": "[fiId]",
@@ -295,8 +294,20 @@
           "submissionType": "XML",
           "submissionFileType": "CRS701",
           "messageRefId": "GB2023GB-XZU9323406858-APIMB0108"
-=======
->>>>>>> 1e6ea39 (DAC6-4212 | add data for singlular submission for voiding (#5))
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0666",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-02-28T10:20:56.789Z",
+          "regime": "FATCA",
+          "reportingYear": "2016",
+          "submissionCaseId": "FATCA-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "FATCA1",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0666",
+          "submissionDeleteStatus": false
         }
       ]
     }
