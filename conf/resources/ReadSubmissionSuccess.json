@@ -294,6 +294,20 @@
           "submissionFileType": "FATCA1",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0666",
           "submissionDeleteStatus": false
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0666",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-02-28T10:20:56.789Z",
+          "regime": "FATCA",
+          "reportingYear": "2025",
+          "submissionCaseId": "FATCA-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "FATCA1",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0666",
+          "submissionDeleteStatus": false
         }
       ]
     }
