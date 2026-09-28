@@ -22,7 +22,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2025GB-XZU9323406858-APIMB0256"
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0256",
+          "isNilReport": false,
+          "submissionDeleteStatus": false
         },
         {
           "fiId": "[fiId]",
@@ -35,7 +37,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2025GB-XZU9323406858-APIMB0266"
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0266",
+          "isNilReport": false,
+          "submissionDeleteStatus": false
         },
         {
           "fiId": "[fiId]",
@@ -48,7 +52,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2025GB-XZU9323406858-APIMB0200"
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0200",
+          "isNilReport": false,
+          "submissionDeleteStatus": false
         },
         {
           "fiId": "[fiId]",
@@ -62,7 +68,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2025GB-XZU9323406858-APIMB0255"
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0255",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -76,7 +84,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS702",
-          "messageRefId": "GB2025GB-XZU9323406858-APIMB0251"
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0251",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -89,7 +99,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS703",
-          "messageRefId": "GB2025GB-XZU9323406858-APIMB0281"
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0281",
+          "isNilReport": true,
+          "submissionDeleteStatus": false
         },
         {
           "fiId": "[fiId]",
@@ -103,7 +115,8 @@
           "submissionType": "XML",
           "submissionFileType": "FATCA1",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0275",
-          "submissionDeleteStatus": true
+          "submissionDeleteStatus": true,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -118,7 +131,8 @@
           "submissionType": "XML",
           "submissionFileType": "FATCA3",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0267",
-          "submissionDeleteStatus": true
+          "submissionDeleteStatus": true,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -132,7 +146,8 @@
           "submissionType": "XML",
           "submissionFileType": "FATCA1",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0268",
-          "submissionDeleteStatus": false
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -147,7 +162,8 @@
           "submissionType": "XML",
           "submissionFileType": "FATCA2",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0269",
-          "submissionDeleteStatus": false
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -162,7 +178,24 @@
           "submissionType": "XML",
           "submissionFileType": "FATCA4",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0270",
-          "submissionDeleteStatus": false
+          "submissionDeleteStatus": false,
+          "isNilReport": false
+        },
+        {
+          "fiId": "[fiId]",
+          "fiName": "Test FI Name1",
+          "fileName": "GB2025GB-XZU9323406858-APIMB0270",
+          "originalMessageRefId": "GB2025GB-XZU9323406858-APIMB0268",
+          "submissionStatus": "PASSED",
+          "uploadDateTime": "2025-03-29T14:20:56.789Z",
+          "regime": "FATCA",
+          "reportingYear": "2015",
+          "submissionCaseId": "FATCA-SUB-12224",
+          "submissionType": "XML",
+          "submissionFileType": "FATCA4",
+          "messageRefId": "GB2025GB-XZU9323406858-APIMB0270",
+          "submissionDeleteStatus": false,
+          "isNilReport": true
         },
         {
           "fiId": "[fiId]",
@@ -175,7 +208,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2014GB-XZU9323406858-APIMB0101"
+          "messageRefId": "GB2014GB-XZU9323406858-APIMB0101",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -188,7 +223,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2013GB-XZU9323406858-APIMB0101"
+          "messageRefId": "GB2013GB-XZU9323406858-APIMB0101",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -201,7 +238,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2015GB-XZU9323406858-APIMB0102"
+          "messageRefId": "GB2015GB-XZU9323406858-APIMB0102",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -214,7 +253,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2018GB-XZU9323406858-APIMB0103"
+          "messageRefId": "GB2018GB-XZU9323406858-APIMB0103",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -227,7 +268,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2019GB-XZU9323406858-APIMB0104"
+          "messageRefId": "GB2019GB-XZU9323406858-APIMB0104",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -240,7 +283,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2020GB-XZU9323406858-APIMB0105"
+          "messageRefId": "GB2020GB-XZU9323406858-APIMB0105",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -253,7 +298,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2021GB-XZU9323406858-APIMB0106"
+          "messageRefId": "GB2021GB-XZU9323406858-APIMB0106",
+          "submissionDeleteStatus":false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -266,7 +313,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2022GB-XZU9323406858-APIMB0107"
+          "messageRefId": "GB2022GB-XZU9323406858-APIMB0107",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -279,7 +328,9 @@
           "submissionCaseId": "CRS-SUB-12224",
           "submissionType": "XML",
           "submissionFileType": "CRS701",
-          "messageRefId": "GB2023GB-XZU9323406858-APIMB0108"
+          "messageRefId": "GB2023GB-XZU9323406858-APIMB0108",
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -293,7 +344,8 @@
           "submissionType": "XML",
           "submissionFileType": "FATCA1",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0666",
-          "submissionDeleteStatus": false
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         },
         {
           "fiId": "[fiId]",
@@ -307,7 +359,8 @@
           "submissionType": "XML",
           "submissionFileType": "FATCA1",
           "messageRefId": "GB2025GB-XZU9323406858-APIMB0666",
-          "submissionDeleteStatus": false
+          "submissionDeleteStatus": false,
+          "isNilReport": false
         }
       ]
     }
